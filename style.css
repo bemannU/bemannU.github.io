@@ -4,5 +4,13 @@ body{
 
 .title{
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: font;
+    text-align: center;
+    font-size: 700%;
+    padding: 50px;
+}
+
+@font-face {
+  font-family: font;
+  src: url(Metro.otf);
 }
