@@ -1,18 +1,23 @@
 body{
-    background-color: #404045;
+    background-color: #ded7bb;
 }
 
 .title{
-    color: #fff;
-    font-family: font;
+    color: #4c37eb;
+    font-family: CooperBlack;
     text-align: center;
     font-size: 700%;
     padding: 50px;
 }
 
 @font-face {
-  font-family: font;
+  font-family: russian;
   src: url(Metro.otf);
+}
+
+@font-face {
+  font-family: CooperBlack;
+  src: url(COOPBL.TTF);
 }
 
 .youtubeButton{
