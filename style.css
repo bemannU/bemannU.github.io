@@ -1,13 +1,32 @@
 body{
     background-color: #ded7bb;
+    overflow: hidden;
+}
+
+.top{
+  text-align:center;
+  padding: 100px;
+}
+
+.welcome{
+    font-family: CooperBlack;
+    top: 65px;
+    right: 50%;
+    font-size: 20pt;
+    padding: 1px;
+    z-index: top;
+    position: absolute;
 }
 
 .title{
     color: #4c37eb;
     font-family: CooperBlack;
-    text-align: center;
-    font-size: 700%;
-    padding: 50px;
+    size: 72pt;
+    padding: 0px;
+    position:relative;
+    scale: 3;
+    z-index: bottom ;
+
 }
 
 @font-face {
@@ -20,20 +39,77 @@ body{
   src: url(COOPBL.TTF);
 }
 
-.youtubeButton{
-  width: 300px;
-  height: 100px;
-  border-radius: 50px;
-  background-color: #fff;
-  position: absolute;
-  left: 50%;
-  translate: -50% 0;
+@keyframes slidein {
+  100% {
+    transform:scale(1.02);
+  }
 }
 
-.silverspace{
-  width: 10px;
-  height: 5px;
-  border: 0;
+
+.youtubeButton{
+  width: 23%;
+  height: 90%;
+  border-radius: 50px;
+  background-color: #89cc3c;
   position: absolute;
-  bottom: 1%;
+  left: 14%;
+  translate: -50% 0;
+  font-family: CooperBlack;
+  font-size: 2vw;
+  border-width: 0px;
+}
+
+:hover.youtubeButton{
+  animation: slidein 0.1s ease-out forwards;
+}
+
+.projectsButton{
+  width: 23%;
+  height: 90%;
+  border-radius: 50px;
+  background-color: #e5f04f;
+  position: absolute;
+  left: 38%;
+  translate: -50% 0;
+  font-family: CooperBlack;
+  font-size: 2vw;
+  border-width: 0px;
+}
+
+:hover.projectsButton{
+  animation: slidein 0.1s ease-out forwards;
+}
+
+.aboutMeButton{
+  width: 23%;
+  height: 90%;
+  border-radius: 50px;
+  background-color: #cf34a1;
+  position: absolute;
+  left: 62%;
+  translate: -50% 0;
+  font-family: CooperBlack;
+  font-size: 2vw;
+  border-width: 0px;
+}
+
+:hover.aboutMeButton{
+  animation: slidein 0.1s ease-out forwards;
+}
+
+.friendsButton{
+  width: 23%;
+  height: 90%;
+  border-radius: 50px;
+  background-color: #3041d8;
+  position: absolute;
+  left: 86%;
+  translate: -50% 0;
+  font-family: CooperBlack;
+  font-size: 2vw;
+  border-width: 0px;
+}
+
+:hover.friendsButton{
+  animation: slidein 0.1s ease-out forwards;
 }
