@@ -1,7 +1,16 @@
 body{
-    background-color: #ded7bb;
-    overflow: hidden;
+  background-color: #f7ebbb;
+  overflow: hidden; 
 }
+
+/* @keyframes grain {
+  0%, 100% {transform: translate(0,0);}
+  10% {transform: translate(-5%, -10%);}
+  30% {transform: translate(5%, 6%);}
+  50% {transform: translate(-10%, -1%);}
+  70% {transform: translate(7%, 8%);}
+  90% {transform: translate( -6%, -2%);}
+} */
 
 .top{
   text-align:center;
@@ -9,24 +18,31 @@ body{
 }
 
 .welcome{
-    font-family: CooperBlack;
-    top: 65px;
-    right: 50%;
-    font-size: 20pt;
-    padding: 1px;
-    z-index: top;
-    position: absolute;
+  font-family: CooperBlack;
+  top: 65px;
+  right: 50%;
+  font-size: 20pt;
+  padding: 1px;
+  /* z-index: top; */
+  position: absolute;
+  animation: title-anim 5s infinite ease-in-out;
 }
 
 .title{
-    color: #4c37eb;
-    font-family: CooperBlack;
-    size: 72pt;
-    padding: 0px;
-    position:relative;
-    scale: 3;
-    z-index: bottom ;
+  color: #4c37eb;
+  font-family: CooperBlack;
+  size: 72pt;
+  padding: 0px;
+  position:relative;
+  scale: 3;
+  z-index: bottom ;
+  animation: title-anim 6s infinite ease-in-out
+}
 
+@keyframes title-anim{
+  0%, 100% {transform: translateY(-5%);}
+  50% {transform: translateY(5%);}
+  100%{transform: translateY(-5%);}
 }
 
 @font-face {
@@ -40,8 +56,8 @@ body{
 }
 
 @keyframes slidein {
-  100% {
-    transform:scale(1.02);
+  100% { 
+    transform:scale(1.02) translateY(-5%);
   }
 }
 
@@ -60,7 +76,7 @@ body{
 }
 
 :hover.youtubeButton{
-  animation: slidein 0.1s ease-out forwards;
+  animation: slidein 0.1s ease-in-out forwards;
 }
 
 .projectsButton{
@@ -77,7 +93,7 @@ body{
 }
 
 :hover.projectsButton{
-  animation: slidein 0.1s ease-out forwards;
+  animation: slidein 0.1s ease-in-out forwards;
 }
 
 .aboutMeButton{
@@ -94,7 +110,7 @@ body{
 }
 
 :hover.aboutMeButton{
-  animation: slidein 0.1s ease-out forwards;
+  animation: slidein 0.1s ease-in-out forwards;
 }
 
 .friendsButton{
@@ -111,5 +127,5 @@ body{
 }
 
 :hover.friendsButton{
-  animation: slidein 0.1s ease-out forwards;
+  animation: slidein 0.1s ease-in-out forwards;
 }
