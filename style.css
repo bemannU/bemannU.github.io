@@ -26,6 +26,7 @@ body{
   /* z-index: top; */
   position: absolute;
   animation: title-anim 5s infinite ease-in-out;
+  animation: title-rotate 4s infinite ease-in-out;
 }
 
 .title{
@@ -36,13 +37,20 @@ body{
   position:relative;
   scale: 3;
   z-index: bottom ;
-  animation: title-anim 6s infinite ease-in-out
+  animation: title-anim 6s infinite ease-in-out;
+  animation: title-rotate 5s infinite ease-in-out;
 }
 
 @keyframes title-anim{
   0%, 100% {transform: translateY(-5%);}
   50% {transform: translateY(5%);}
   100%{transform: translateY(-5%);}
+}
+
+@keyframes title-rotate{
+  0%, 100% {transform: rotate(-1deg);}
+  50% {transform: rotate(1deg);}
+  100%{transform: rotate(-1deg);}
 }
 
 @font-face {
