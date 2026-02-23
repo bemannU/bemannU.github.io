@@ -12,6 +12,11 @@ body{
   90% {transform: translate( -6%, -2%);}
 } */
 
+.grain-overlay{
+  width: 100vw;
+  height: 100vh;
+}
+
 .top{
   text-align:center;
   padding: 100px;
