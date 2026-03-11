@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../timr.io"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../listr.io"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bemannU.github.io"
+	}
+}

@@ -15,6 +15,7 @@ body{
 .grain-overlay{
   width: 100vw;
   height: 100vh;
+  position: absolute;
 }
 
 .top{
