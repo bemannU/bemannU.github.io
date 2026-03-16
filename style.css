@@ -75,7 +75,11 @@ body{
   }
 }
 
-
+@keyframes projButt {
+  100% { 
+    transform:scale(1.02);
+  }
+}
 .youtubeButton{
   width: 23%;
   height: 90%;
@@ -142,4 +146,33 @@ body{
 
 :hover.friendsButton{
   animation: slidein 0.1s ease-in-out forwards;
+}
+
+.projButton{
+  width: 20vw;
+  height: 20vh;
+  border-radius: 20px;
+  background-color: #3041d8;
+  color: white;
+  border-width: 0;
+}
+
+:hover.projButton{
+  animation: projButt 0.1s ease-in-out forwards;
+}
+
+.bemannuTitle{
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+}
+
+.bemannu{
+  color: #4c37eb;
+  font-family: CooperBlack;
+  size: 20pt;
+  position:fixed;
+  margin-left: 44vw;
+  animation: title-anim 6s infinite ease-in-out;
+  animation: title-rotate 5s infinite ease-in-out;
 }
