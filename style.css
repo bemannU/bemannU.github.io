@@ -91,6 +91,7 @@ body{
   font-family: CooperBlack;
   font-size: 2vw;
   border-width: 0px;
+  color: rgb(36, 109, 67);
 }
 
 :hover.youtubeButton{
@@ -108,6 +109,7 @@ body{
   font-family: CooperBlack;
   font-size: 2vw;
   border-width: 0px;
+  color: rgb(172, 152, 63);
 }
 
 :hover.projectsButton{
@@ -125,6 +127,7 @@ body{
   font-family: CooperBlack;
   font-size: 2vw;
   border-width: 0px;
+  color: rgb(105, 36, 84);
 }
 
 :hover.aboutMeButton{
@@ -142,6 +145,7 @@ body{
   font-family: CooperBlack;
   font-size: 2vw;
   border-width: 0px;
+  color: rgb(43, 8, 106);
 }
 
 :hover.friendsButton{
@@ -153,8 +157,10 @@ body{
   height: 20vh;
   border-radius: 20px;
   background-color: #3041d8;
-  color: white;
+  color: rgb(49, 44, 120);
   border-width: 0;
+  font-family: CooperBlack;
+  font-size: 72pt;
 }
 
 :hover.projButton{
@@ -175,4 +181,8 @@ body{
   margin-left: 44vw;
   animation: title-anim 6s infinite ease-in-out;
   animation: title-rotate 5s infinite ease-in-out;
+}
+
+.friend{
+  size: 10%;
 }
