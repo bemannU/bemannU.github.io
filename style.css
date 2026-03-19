@@ -1,6 +1,5 @@
 body{
   background-color: #f7ebbb;
-  overflow: hidden; 
 }
 
 /* @keyframes grain {
@@ -181,6 +180,9 @@ body{
   margin-left: 44vw;
   animation: title-anim 6s infinite ease-in-out;
   animation: title-rotate 5s infinite ease-in-out;
+  background-color: #f7ebbb;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 #friends img{
