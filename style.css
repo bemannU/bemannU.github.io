@@ -183,6 +183,7 @@ body{
   animation: title-rotate 5s infinite ease-in-out;
 }
 
-.friend{
-  size: 10%;
+#friends img{
+  height: 30%;
+  
 }
