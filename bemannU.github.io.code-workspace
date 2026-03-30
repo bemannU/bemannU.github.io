@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "year12-2026",
+			"path": "../../../../../xampp/htdocs/year12-2026"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bemannU.github.io"
+	}
+}

@@ -159,7 +159,9 @@ body{
   color: rgb(49, 44, 120);
   border-width: 0;
   font-family: CooperBlack;
-  font-size: 72pt;
+  padding: 10px;
+  font-size: 67pt;
+  text-underline-offset: 1000000000000000000000000000000000000000000px;
 }
 
 :hover.projButton{
