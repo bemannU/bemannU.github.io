@@ -74,6 +74,12 @@ body{
   }
 }
 
+@keyframes slideout {
+  100% { 
+    transform:scale(1) translateY(5%);
+  }
+}
+
 @keyframes projButt {
   100% { 
     transform:scale(1.02);
